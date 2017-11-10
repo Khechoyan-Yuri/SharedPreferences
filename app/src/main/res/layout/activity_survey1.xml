@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_survey1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yuri_khechoyan.hw5_sharedpreferences.SurveyActivity1">
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:paddingBottom="50dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_stragree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Strongly Agree"
+            android:textSize="25dp"/>
+        <RadioButton
+            android:id="@+id/rb_agree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agree"
+            android:textSize="25dp"/>
+        <RadioButton
+            android:id="@+id/rb_neutral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neutral"
+            android:textSize="25dp"/>
+        <RadioButton
+            android:id="@+id/rb_disagree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disagree"
+            android:textSize="25dp"/>
+        <RadioButton
+            android:id="@+id/rb_sdisagree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Strongly Disagree"
+            android:textSize="25dp"/>
+    </RadioGroup>
+
+</LinearLayout>
